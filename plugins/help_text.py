@@ -66,12 +66,12 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂 File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝 Rᴇɴᴀᴍᴇ', callback_data = "rnme"),
+                    InlineKeyboardButton('📂 Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️ Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('‼️ About', callback_data = "about")
+                    InlineKeyboardButton('📸 Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data = "about")
                 ],
                 [
                     InlineKeyboardButton("✖️ Close", callback_data = "close")
@@ -110,8 +110,8 @@ async def text(bot, update):
                         InlineKeyboardButton("❗ Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Compass_Botz'),
-                    InlineKeyboardButton('💬 Feedback', url='https://t.me/Dlaize')
+                    InlineKeyboardButton('🏆 Support Channel', url='https://t.me/Doremon_Botz'),
+                    InlineKeyboardButton('💬 Feedback', url='https://t.me/+5xScmjemXiI4Yjll')
                 ]
             ]
         ),
@@ -194,12 +194,12 @@ async def cb_handler(client: Compass_Botz , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝 Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂 File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝 Rᴇɴᴀᴍᴇ', callback_data = "rnme"),
+                    InlineKeyboardButton('📂 Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️ Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('‼️ About', callback_data = "about")
+                    InlineKeyboardButton('📸 Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data = "about")
                 ],
                 [
                     InlineKeyboardButton("✖️ Close", callback_data = "close")
